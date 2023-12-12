@@ -1,0 +1,92 @@
+/* Font Family */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Hover Effect for Navigation */
+nav a:hover {
+    color: #ea6969; 
+}
+
+/* Float Property */
+.float-example {
+    float: left;
+    margin-right: 20px;
+}
+
+/* Absolute and Relative Positioning */
+.position-relative {
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+
+.position-absolute {
+    position: absolute;
+    top: 50px;
+    right: 20px;
+}
+
+/* Element Selector */
+h1 {
+    color: #333;
+}
+
+/* Class Selector */
+.highlight {
+    background-color: #ffcc00; /* Yellow background */
+    padding: 5px;
+}
+
+/* ID Selector */
+#special-element {
+    border: 1px solid #007bff; /* Blue border */
+}
+
+/* Field Styling */
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+/* Form Section Styles */
+section {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+    color: #555;
+}
+
+input,
+textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+/* Note: Styles for the submit button are not included, as it is not functional */
+
+
